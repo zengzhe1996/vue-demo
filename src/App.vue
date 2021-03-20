@@ -6,7 +6,6 @@
     <MyModel v-model="radio" label="radio2" @onChange="onChange"></MyModel>
     <customModel v-model="value1" :value1="value1"></customModel>
     <div>{{value1}}</div>
-    <div>{{msg}}</div>
   </div>
 </template>
 
